@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 16px;
+}
+
+
+
+
+ /* 1. Header */
+ 
+.contact-mail-header {
+    padding: 10px;
+    background-color: #161d2d;
+    color: white;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.mail-container {
+    display: flex;
+    align-items: center;
+}
+
+.mail-container a {
+    color: white;
+}
+
+.mail-icon-wrapper {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.header-contact-email {
+    font-size: 1.1rem;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    
+}
+
+.header-contact-email:hover {
+    color: #FF6123;
+    
+}
+
+.header-social-icons-container {
+    margin-left: auto;
+}
+
+.header-social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header-social-icon-styles {
+    color: white;
+    font-size: 1.3rem;
+    transition: 0.3s ease;
+}
+
+
+
+
+/* 2. Nav Header */
+
+.navigation-header {
+    background-color: #1E2045;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.navigation-header-wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navigation-header nav {
+    margin-left: auto;
+}
+
+.navigation-header nav ul li {
+    display: inline-block;
+}
+
+.navigation-header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    transition: 0.3s ease;
+}
+
+.nav-links:hover {
+    color: #FF6123;
+}
+
+.company-logo-img {
+    width: 200px;
+}
+
+
+/* 3. Jumbotron */
+
+.jumbotron {
+    background: url("../image/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7); /* Tint color */
+    background-blend-mode: multiply;
+    height: 75vh;
+    width: 100%;
+}
+
+
+/* 4. Features */
+
+/* .features {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.features-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.features-styling {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+     */
+    
+    width: 300px;
+    height: 350px;
+    z-index: 1;
+    position: relative;
+    bottom: 80px;
+    margin-right: 35px;
+    text-align: center;
+    
+}
+
+.features-styling p {
+    text-align: left;
+    color: white;
+}
+
+.features-icon-container {
+    margin: 20px 0;
+}
+
+.features-content-container {
+    margin-left: 20px;
+}
+
+.features-icons {
+    font-size: 5rem;
+    color: white;
+}
+
+.features-styling h2 {
+    margin: 20px 0;
+    color: white;
+}
+
+.features-styling-firstcolor {
+    background-color: #1E2045;
+
+}
+
+.features-styling-secondcolor {
+    background-color: #FF6123;
+}
+
+
+/* 5. About Us */
+
+.about-us-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.aboutus-img-section img {
+    max-width: 100%;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.about-us-text h1 {
+
+    font-size: 2.5rem;
+}
+
+.about-us-text h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.about-us-text p {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
+/* 6. Contact Us */
+
+.contact-us {
+    margin-top: 5rem;
+    background-color: #F1F3F5;
+    padding-bottom: 5rem;
+}
+
+
+.contact-us-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-us h1 {
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 0.8rem; */
+}
+
+.contact-us-form input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    margin-bottom: 1rem;
+    border-radius: px;
+    padding-left: 8px;
+}
+
+.contact-us-form textarea {
+    width: 100%;
+    padding: 8px 0px 0 8px;
+    border: none;
+}
+
+
+ .row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+}
+
+.row-inputs {
+    width: 100%;
+}
+
+input[type="submit"] {
+    padding: 0;
+}
+
+.submitBtn {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    transition: 0.4s ease;
+}
+
+.submitBtn:hover {
+    background-color: #FF6123;
+    cursor: pointer;
+}
+
+/* 7. Footer */
+
+footer {
+    padding: 4rem 0;
+    background-color: #161d2d;
+    color: white;
+}
+
+.footer-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-img {
+    margin-top: 2rem;
+    display: block;
+    max-width: 30%;
+}
+
+.footer-content-1 {
+    max-width: 60%;
+}
+
+
+.footer-content-1 p {
+    margin-top: 1.5rem;
+    width: 60%;
+}
+
+.footer-content-2 {
+    max-width: 40%;
+}
+
+.footer-content-2 h3 {
+    margin-bottom: 0.5rem;
+}
+
+.footer-content-2 ul   {
+    list-style: none;
+}
+
+.footer-content-2 li {
+    margin-bottom: 1rem;
+}
+
+.footer-content-2 p {
+    font-size: 0.7rem;
+    color: grey;
+    font-weight: 800;
+}
+
+.footer-details-styling {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
