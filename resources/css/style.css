@@ -389,3 +389,26 @@ footer {
     font-size: 0.8rem;
 }
 
+
+/* MEDIA QUERIES */
+
+/* Small Devices */
+
+@media (min-width: 20em) and (max-width: 25em) {
+    .mail-container {
+        display: none;
+    }
+    
+    .header-social-icons-container {
+        margin: 0;
+    }
+
+    .header-social-icons li {
+        font-size: 1.3em;
+    }
+
+    .hamburger-menu {
+        margin-left: auto;
+    }
+
+}
