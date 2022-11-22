@@ -60,13 +60,17 @@ html {
 
 .header-social-icons li {
     display: inline-block;
+    font-size: 1.6em;
     margin-right: 15px;
 }
 
 .header-social-icon-styles {
     color: white;
-    font-size: 1.3rem;
     transition: 0.3s ease;
+}
+
+.hamburger-menu-icon {
+    font-size: 1.4em;
 }
 
 
