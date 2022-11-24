@@ -80,20 +80,22 @@ body {
 }
 
 .hamburger-box {
-    width: 26px;
+    width: 23px;
     height: 26px;
     display: inline-block;
     position: relative;
+
     
 }
 
 .hamburger-innerline {
     width: 100%;
-    height: 3px;
+    height: 2.7px;
     position: absolute;
-    background-color: silver;
+    background-color: #ececec;
     left: 0;
     top: 50%;
+    transform: translateY(-50%);
 }
 
 .hamburger-innerline::before,
@@ -101,19 +103,32 @@ body {
     
     content: '';
     width: 100%;
-    height: 3px;
+    height: 2.7px;
     position: absolute;
-    background-color: silver;
+    background-color: #ececec;
     left: 0;
+    transition: 0.1s;
     
 }
 
 .hamburger-innerline::before {
-    top: -10px;
+    top: -8px;
 }
 
 .hamburger-innerline::after {
-    top: 10px;
+    top: 8px;
+}
+
+.hamburger-active .hamburger-innerline {
+    background-color: transparent;
+}
+
+.hamburger-active .hamburger-innerline::before {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger-active .hamburger-innerline::after {
+    transform: translateY(-8px) rotate(-45deg);
 }
 
 
