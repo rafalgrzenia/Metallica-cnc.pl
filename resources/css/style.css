@@ -436,12 +436,23 @@ footer {
 /* Small Devices */
 
 @media (min-width: 20em) and (max-width: 25em) {
+    
+    /* 1. Header */
+
+    header nav ul {
+        padding: 0;
+    }
+    
     .mail-container {
         display: none;
     }
     
     .header-social-icons-container {
         margin: 0;
+    }
+
+    .header-social-icons {
+        padding: 0;
     }
 
     .header-social-icons li {
