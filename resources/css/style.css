@@ -463,4 +463,24 @@ footer {
         margin-left: auto;
     }
 
+    /* 2. Navigation Header */
+
+    .header-logo {
+        display: none;
+    }
+
+    .navigation-header {
+        position: relative;
+    }
+
+    .navigation-header nav {
+        margin: 0 auto;
+    }
+
+    .navigation-header-wrapper nav ul li  {
+        display: flex;
+        flex-direction: column;
+        font-size: 5em;
+    }
+
 }
