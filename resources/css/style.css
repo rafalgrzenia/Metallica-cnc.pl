@@ -106,7 +106,7 @@ body {
     position: absolute;
     background-color: #ececec;
     left: 0;
-    transition: 0.1s;
+    transition: .1s;
     
 }
 
@@ -170,7 +170,6 @@ body {
 .company-logo-img {
     width: 200px;
 }
-
 
 /* 3. Jumbotron */
 
@@ -486,6 +485,13 @@ footer {
 
     .navigation-header {
         position: relative;
+        display: none;
+        
+    }
+
+    .navigation-header-active {
+        display: block;
+        
     }
 
     .navigation-header nav {
@@ -498,4 +504,6 @@ footer {
         font-size: 5em;
     }
 
+    
+   
 }
