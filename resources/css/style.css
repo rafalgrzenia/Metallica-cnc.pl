@@ -71,8 +71,7 @@ body {
 
 
 .hamburger-menu {
-    
-    display: inline-block;
+    display: none;
     background-color: transparent;
     border: 0;
     cursor: pointer;
@@ -475,6 +474,7 @@ footer {
     }
 
     .hamburger-menu {
+        display: inline-block;
         margin-left: auto;
     }
 
