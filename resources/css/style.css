@@ -350,12 +350,20 @@ input[type="submit"] {
 
 .file-input-div {
     margin-top: 0.7em;
+    text-align: left;
 }
+
+.contact-us-form input[type="file"] {
+    width: 30%;
+    text-align: left;
+    margin-left: 0.5em;
+}
+
 
 input[type="file"]::file-selector-button {
     font-family: "Poppins", sans-serif;
     display: block;
-    font-size: 1em;
+    font-size: 0.9rem;
     padding: 0.5em;
     background-color: #161d2d;
     border-radius: 3px;
