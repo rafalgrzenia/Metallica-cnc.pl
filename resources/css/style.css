@@ -566,4 +566,51 @@ footer {
         display: inline-block;
     }
    
+
+
+    /* Footer */
+
+    .footer-container {
+        flex-direction: column;
+        width: 95%;
+        
+    }
+
+    .footer-content-1,
+    .footer-content-2 {
+        max-width: 100%;
+        
+    }
+
+    .footer-img {
+        max-width: 90%;
+        margin: 0 auto;
+        
+        
+    }
+
+    .footer-content-1 p {
+        width: 80%;
+        margin: 1.5em auto;
+    }
+
+    .footer-content-2 {
+        width: 100%;
+    }
+
+    .footer-content-2 ul {
+        padding: 0;
+    }
+
+    .footer-content-2 h3,
+    .footer-content-2 ul {
+        width: 80%;
+        margin: 1.5em auto;
+    }
+
+    
+
+    
+
+
 }
