@@ -349,7 +349,7 @@ input[type="submit"] {
 
 
 .file-input-div {
-    margin-top: 0.4rem;
+    margin-top: 0.7em;
 }
 
 input[type="file"]::file-selector-button {
