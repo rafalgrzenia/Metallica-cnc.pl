@@ -504,7 +504,7 @@ footer {
         font-size: 5em;
     }
 
-    /* Features Section*/
+    /* Features Section */
 
     .features-wrapper {
         flex-direction: column;
@@ -518,6 +518,16 @@ footer {
         margin-top: 0.6em;
     }
 
-    
+    /* About Us */
+
+    .about-us-wrapper {
+        flex-direction: column;
+        width: 95%;
+        margin-top: 5em;
+    }
+
+    .about-us-text {
+        text-align: center;
+    }
    
 }
