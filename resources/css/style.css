@@ -529,5 +529,40 @@ footer {
     .about-us-text {
         text-align: center;
     }
+
+    /* Contact Us */
+
+    .contact-us {
+        padding-top: 1em;
+    }
+
+    
+
+    .contact-us-wrapper {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .contact-us h1 {
+        width: 85%;
+        margin: 1.5em auto;
+    }
+
+    .contact-us-form input {
+        width: 95%;
+    }
+
+    .textarea-container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .file-input-div {
+        display: inline-block;
+    }
    
 }
