@@ -457,7 +457,7 @@ footer {
 
 /* Small Devices */
 
-@media (min-width: 20em) and (max-width: 30em) {
+@media (min-width: 20em) and (max-width: 50em) {
     
     /* 1. Header */
 
