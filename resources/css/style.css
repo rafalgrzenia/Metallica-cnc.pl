@@ -521,6 +521,7 @@ footer {
 
     .features-styling {
         width: 95%;
+        max-width: 360px;
         height: auto;
         position: static;
         margin-right: 0;
@@ -531,7 +532,7 @@ footer {
 
     .about-us-wrapper {
         flex-direction: column;
-        width: 95%;
+        width: 90%;
         margin-top: 5em;
     }
 
@@ -591,7 +592,8 @@ footer {
     }
 
     .footer-img {
-        max-width: 90%;
+        width: 90%;
+        max-width: 25em;
         margin: 0 auto;
         
         
