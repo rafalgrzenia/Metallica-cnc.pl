@@ -180,7 +180,7 @@ body {
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.7); /* Tint color */
     background-blend-mode: multiply;
-    height: 75vh;
+    height: 38em;
     width: 100%;
 }
 
@@ -511,6 +511,12 @@ footer {
         display: flex;
         flex-direction: column;
         font-size: 5em;
+    }
+
+    /* Jumbotron */
+
+    .jumbotron {
+        height: 25em;
     }
 
     /* Features Section */
