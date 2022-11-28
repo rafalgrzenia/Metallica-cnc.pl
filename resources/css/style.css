@@ -463,9 +463,9 @@ footer {
 
 /* MEDIA QUERIES */
 
-/* Small Devices */
+/* Small Devices 320px - 800px */
 
-@media (min-width: 20em) and (max-width: 50em) {
+@media (min-width: 15em) and (max-width: 65em) {
     
     /* 1. Header */
 
