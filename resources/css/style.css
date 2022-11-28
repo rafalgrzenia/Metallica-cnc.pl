@@ -418,7 +418,7 @@ footer {
 .footer-img {
     margin-top: 2rem;
     display: block;
-    max-width: 30%;
+    max-width: 35%;
 }
 
 .footer-content-1 {
@@ -440,6 +440,7 @@ footer {
 }
 
 .footer-content-2 ul   {
+    padding: 0;
     list-style: none;
 }
 
