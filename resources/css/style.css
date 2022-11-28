@@ -309,6 +309,8 @@ body {
 }
 
 .contact-us h1 {
+    margin: 0 auto;
+    line-height: 1.7;
     padding-top: 1rem;
     margin-bottom: 1rem;
     font-size: 1.6rem;
