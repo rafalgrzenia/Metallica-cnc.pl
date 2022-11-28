@@ -636,10 +636,40 @@ footer {
         width: 80%;
         margin: 1.5em auto;
     }
+}
 
-    
+/* Medium Devices */
 
+@media (min-width: 36em) and (max-width: 65em) {
     
+    /* Features Section */
+
+    .features-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-left: 0.8em;
+    }
+
+    /* Jumbotron */
+
+    .jumbotron {
+        height: 32em;
+    }
+
+    /* About Us */
+
+    .aboutus-img-section {
+        
+        margin: 0 auto;
+        max-width: 40em;
+    }
+
+    .about-us-text {
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
 
 
 }
