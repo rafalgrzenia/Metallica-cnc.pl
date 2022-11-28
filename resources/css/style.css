@@ -535,7 +535,7 @@ footer {
 
     .features-styling {
         width: 95%;
-        max-width: 360px;
+        max-width: 31em;
         height: auto;
         position: static;
         margin-right: 0;
