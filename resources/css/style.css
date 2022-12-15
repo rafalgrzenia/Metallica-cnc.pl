@@ -174,7 +174,7 @@ body {
 /* 3. Jumbotron */
 
 .jumbotron {
-    background: url("../image/jumbotron.jpg");
+    background: url("../image/jumbotron.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
