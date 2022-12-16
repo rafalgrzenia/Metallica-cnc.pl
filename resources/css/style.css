@@ -151,6 +151,10 @@ body {
     margin-left: auto;
 }
 
+.navigation-header nav ul {
+    padding-left: 0;
+}
+
 .navigation-header nav ul li {
     display: inline-block;
 }
@@ -168,7 +172,7 @@ body {
 }
 
 .company-logo-img {
-    width: 15em;
+    width: 16.5em;
 }
 
 /* 3. Jumbotron */
@@ -465,7 +469,7 @@ footer {
 
 /* Small Devices 320px - 800px */
 
-@media (min-width: 15em) and (max-width: 65em) {
+@media (min-width: 15em) and (max-width: 66em) {
     
     /* 1. Header */
 
@@ -640,7 +644,7 @@ footer {
 
 /* Medium Devices */
 
-@media (min-width: 36em) and (max-width: 65em) {
+@media (min-width: 36em) and (max-width: 66em) {
     
     /* Features Section */
 
