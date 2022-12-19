@@ -55,10 +55,17 @@
     <header class="navigation-header">
         <div class="navigation-header-wrapper">
             <div class="header-logo">
-                <img 
-                    src="resources/image/company-logo.webp" 
+                <picture>
+                    <source 
+                    srcset="resources/image/company-logo.webp"
+                    class="company-logo-img">
+                    
+                    <img 
+                    src="resources/image/company-logo.png" 
                     alt="Company Logo"
                     class="company-logo-img">
+                </picture>
+                
             </div>
             <nav>
                 <ul>
@@ -130,7 +137,11 @@
     <section>
         <div class="about-us-wrapper">
             <div class="aboutus-img-section">
-                <img src="./resources/image/aboutusimg.webp" alt="Company image">
+                <picture>
+                    <source srcset="./resources/image/aboutusimg.webp">
+                    <img src="./resources/image/aboutusimg.png" alt="Company Image">
+                </picture>
+                
             </div>
             <div class="about-us-text">
                 <h1>O nas</h1>
