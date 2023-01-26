@@ -296,7 +296,7 @@ body {
     text-align: center;
 }
 
-.about-us-video {
+#about-us-video {
     margin-top: 8em;
 }
 
@@ -572,6 +572,11 @@ footer {
 
     .about-us-text {
         text-align: center;
+    }
+
+    #about-us-video {
+        margin-top: 3em;
+        width: 100%;
     }
 
     /* Contact Us */
