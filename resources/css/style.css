@@ -479,11 +479,33 @@ footer {
 
 /* Contact Subpage */
 
-
+.contact-details {
+    padding: 2em 0 10em;
+}
 
 .responsive-map iframe {
     aspect-ratio: 16 / 9;
     width: 100%;
+}
+
+.contact-logo {
+    margin-bottom: 2em;
+}
+
+.contact-details {
+    display: grid;
+    place-items: center;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7em;
+
+}
+
+.contact-logo-img {
+    width: 40em;
 }
 
 
