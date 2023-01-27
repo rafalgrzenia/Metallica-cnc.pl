@@ -474,6 +474,18 @@ footer {
     font-size: 0.8rem;
 }
 
+/* SUBPAGES */
+
+
+/* Contact Subpage */
+
+
+
+.responsive-map iframe {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -656,6 +668,7 @@ footer {
         margin: 1.5em auto;
     }
 }
+
 
 /* Medium Devices */
 
