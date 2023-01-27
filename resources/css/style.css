@@ -479,6 +479,10 @@ footer {
 
 /* Contact Subpage */
 
+.contact-page {
+    background-color: rgb(226, 226, 226);
+}
+
 .contact-details {
     padding: 2em 0 10em;
 }
@@ -689,6 +693,34 @@ footer {
         width: 80%;
         margin: 1.5em auto;
     }
+
+    /* Subpages */
+
+
+
+    /* Contact SubPage */
+
+    .contact-details {
+        padding: 2em 0 3em;
+    }
+
+    .contact-logo-img {
+        min-width: 20em;
+        max-width: 100%;
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        text-align: center;
+    }
+
+
+
 }
 
 
