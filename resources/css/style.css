@@ -307,6 +307,41 @@ body {
 }
 
 
+ /* Projects Section */
+
+ .projects {
+    
+    margin-top: 3em;
+    padding-bottom: 7em;
+ }
+
+ .projects-wrapper {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: grid;
+    place-items: center;
+}
+
+.projects h2 {
+
+    font-size: 1.8rem;
+    padding: 1em 0;
+}
+
+.projects-image-container {
+    display: flex;
+    gap: 20px;
+    
+}
+
+
+.projects-images img {
+    width: 325px;
+    
+}
+
+
+
 /* 6. Contact Us */
 
 .contact-us {
@@ -480,7 +515,7 @@ footer {
 /* Contact Subpage */
 
 .contact-page {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(242, 242, 242);
 }
 
 .contact-details {
@@ -616,6 +651,11 @@ footer {
         margin-top: 3em;
         width: 100%;
     }
+
+
+   
+
+
 
     /* Contact Us */
 
