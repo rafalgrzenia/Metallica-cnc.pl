@@ -310,9 +310,9 @@ body {
  /* Projects Section */
 
  .projects {
-    
+    background-color: #EAEAEA;
     margin-top: 3em;
-    padding-bottom: 7em;
+    padding-bottom: 10em;
  }
 
  .projects-wrapper {
@@ -325,7 +325,7 @@ body {
 .projects h2 {
 
     font-size: 1.8rem;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 .projects-image-container {
@@ -345,7 +345,6 @@ body {
 /* 6. Contact Us */
 
 .contact-us {
-    margin-top: 5rem;
     background-color: #F1F3F5;
     padding-bottom: 5rem;
 }
