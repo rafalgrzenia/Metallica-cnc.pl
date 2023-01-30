@@ -201,17 +201,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1300px;
     margin: 0 auto;
+    
 }
 
 .features-styling {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-     */
-    
     width: 300px;
     height: 350px;
     z-index: 1;
@@ -225,14 +223,6 @@ body {
 .features-styling p {
     text-align: left;
     color: white;
-}
-
-.features-icon-container {
-    margin: 20px 0;
-}
-
-.features-content-container {
-    margin-left: 21px;
 }
 
 .features-icons {
@@ -261,7 +251,7 @@ body {
     max-width: 1300px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.4fr 1fr;
+    grid-template-columns: 1.2fr 1fr;
     gap: 20px;
     place-items: center;
     text-align: center;
