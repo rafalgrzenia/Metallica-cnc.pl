@@ -651,6 +651,27 @@ footer {
         width: 100%;
     }
 
+    /* Projects */
+
+    .projects {
+        padding-bottom: 2em;
+    }
+
+    .projects-image-container {
+        flex-direction: column;
+    }
+
+    .projects-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+    .projects-images img {
+        width: 90%;
+    }
 
    
 
