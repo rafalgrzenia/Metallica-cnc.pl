@@ -267,12 +267,12 @@ body {
 
 .about-us-text h2 {
     margin: 0;
-    font-size: 2.2rem;
+    font-size: 2rem;
     text-align: center;
 }
 
 .about-us-text h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -625,9 +625,14 @@ footer {
     /* About Us */
 
     .about-us-wrapper {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         width: 90%;
         margin-top: 5em;
+    }
+
+    .aboutus-img-section img {
+        width: 95%;
+        margin: 0 auto;
     }
 
     .about-us-text h1 {
