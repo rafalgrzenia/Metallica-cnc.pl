@@ -155,13 +155,16 @@
 
 
     <!-- About Us Video -->
-    <section class="about-us-video">
+    <div class="about-us-video">
         <div class="about-us-video-container">
-            <iframe id="ytplayer" class="youtube-video" type="text/html"
-            src="https://www.youtube.com/embed/66fie8W2yQU"
-            frameborder="0" allowfullscreen> </iframe>
+            <iframe 
+                id="ytplayer" 
+                class="youtube-video"
+                src="https://www.youtube.com/embed/66fie8W2yQU"
+                allowfullscreen> 
+            </iframe>
         </div>
-    </section>
+    </div>
 
     <!-- Projects -->
 
@@ -176,14 +179,14 @@
                 </picture>
 
                 <picture class="projects-images">
-                    <source src="resources/image/project-images/webp/project-image-2-small.webp">
-                    <source src="resources/image/project-images/jpg/project-image-2-small.jpg">
+                    <source srcset="resources/image/project-images/webp/project-image-2-small.webp" type="image/webp">
+                    <source srcset="resources/image/project-images/jpg/project-image-2-small.jpg" type="image/jpeg">
                     <img src="resources/image/project-images/jpg/project-image-2-small.jpg" alt="Second Project image">
                 </picture>
 
                 <picture class="projects-images">
-                    <source src="resources/image/project-images/webp/project-image-3-small.webp">
-                    <source src="resources/image/project-images/jpg/project-image-3-small.jpg">
+                    <source srcset="resources/image/project-images/webp/project-image-3-small.webp" type="image/webp">
+                    <source srcset="resources/image/project-images/jpg/project-image-3-small.jpg" type="image/jpeg">
                     <img src="resources/image/project-images/jpg/project-image-3-small.jpg" alt="Third Project image">
                 </picture>
             </div>
