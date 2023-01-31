@@ -336,7 +336,7 @@ body {
 
 
 .projects-images img {
-    width: 325px;
+    max-width: 325px;
     
 }
 
@@ -551,7 +551,7 @@ footer {
 
 /* Small Devices 320px - 800px */
 
-@media (min-width: 15em) and (max-width: 66em) {
+@media (max-width: 66em) {
     
     /* 1. Header */
 
@@ -822,6 +822,15 @@ footer {
         margin: 0 auto;
         max-width: 60%;
     }
+
+    /* Projects */
+
+    .projects-image-container {
+        gap: 0;
+        flex-direction: row;
+    }
+
+    
 
 
 
