@@ -290,13 +290,19 @@ body {
     line-height: 2;
 }
 
-#about-us-video {
-    margin-top: 8em;
+/* About Us Video */
+
+.about-us-video-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
 }
 
 .youtube-video {
     aspect-ratio: 16 / 9;
-    width: 90%;
+    width: 80%;
     max-width: 1024px;
 }
 
@@ -645,9 +651,11 @@ footer {
         text-align: center;
     }
 
-    #about-us-video {
-        margin-top: 3em;
-        width: 100%;
+
+    /* About Us Video */
+
+    .youtube-video {
+        width: 95%;
     }
 
     /* Projects */
