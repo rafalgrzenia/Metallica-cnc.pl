@@ -225,11 +225,20 @@ body {
     height: 125px;
 }
 
+
 .features-styling p {
+    margin: 0;
+    padding-top: 0.5em;   
     font-size: 1.5rem;
     color: white;
     font-weight: bold;
+
 }
+
+#features-cad-p {
+    font-size: 1.5rem;
+}
+
 
 
 .features-styling-firstcolor {
@@ -241,6 +250,9 @@ body {
     background-color: #FF6123;
 }
 
+.cad-image {
+    margin-top: 2.25em;
+}
 
 
 
@@ -620,6 +632,9 @@ footer {
 
     .features-wrapper {
         flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
     }
 
     .features-styling {
@@ -629,15 +644,19 @@ footer {
         position: static;
         margin-right: 0;
         margin-top: 0.6em;
+        padding: 2em;
     }
 
+    .cad-image {
+        margin-top: 0;
+    }
 
     /* About Us */
 
     .about-us-wrapper {
         grid-template-columns: 1fr;
         width: 90%;
-        margin-top: 5em;
+        margin-top: 1em;
     }
 
     .aboutus-img-section img {
@@ -649,14 +668,16 @@ footer {
         margin-top: 1em;
     }
 
-    
-
     .about-us-text {
         text-align: center;
     }
 
 
     /* About Us Video */
+
+    .about-us-video-container {
+        margin-top: 1em;
+    }
 
     .youtube-video {
         width: 95%;
