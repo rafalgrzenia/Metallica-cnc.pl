@@ -245,7 +245,13 @@ body {
 }
 
 
+
+
 /* 5. About Us */
+
+#about-us-redirect {
+    margin-top: 2em;
+}
 
 .about-us-wrapper {
     max-width: 1300px;
