@@ -235,11 +235,6 @@ body {
 
 }
 
-#features-cad-p {
-    font-size: 1.5rem;
-}
-
-
 
 .features-styling-firstcolor {
     background-color: #1E2045;
@@ -525,6 +520,35 @@ footer {
 
 /* SUBPAGES */
 
+/* Projects Subpage */
+
+.projects-subpage {
+    background-color: rgb(245, 245, 245);
+}
+
+.projects-subpage-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 0 10em;
+}
+
+.projects-subpage h1 {
+    font-size: 2.2rem;
+    margin-bottom: 3em;
+}
+
+.projects-subpage-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 
 /* Contact Subpage */
 
@@ -640,15 +664,10 @@ footer {
     .features-styling {
         width: 95%;
         max-width: 31em;
-        height: 90%;
         position: static;
         margin-right: 0;
         margin-top: 0.6em;
         padding: 2em;
-    }
-
-    .cad-image {
-        margin-top: 0;
     }
 
     /* About Us */
