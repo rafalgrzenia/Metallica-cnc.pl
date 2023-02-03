@@ -175,6 +175,10 @@ body {
     width: 16.5em;
 }
 
+.oferta {
+    display: none;
+}
+
 /* 3. Jumbotron */
 
 .jumbotron {
