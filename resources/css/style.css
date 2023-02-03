@@ -262,9 +262,12 @@ body {
 }
 
 .cad-image {
-    margin-top: 2.25em;
+    margin-top: 3.1em;
 }
 
+#feature-cad-second-paragraph {
+    padding-top: 0.2em;
+}
 
 
 /* 5. About Us */
