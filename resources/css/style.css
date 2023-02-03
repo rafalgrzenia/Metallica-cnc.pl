@@ -879,6 +879,17 @@ footer {
         text-align: center;
     }
 
+    /* Projects Subpage */
+
+    .projects-subpage-wrapper {
+        padding-top: 0;
+        padding-bottom: 3em;
+    }
+
+    .projects-subpage h1 {
+        margin-bottom: 1.5em;
+    }
+
 
 
 }
@@ -922,10 +933,5 @@ footer {
         gap: 0;
         flex-direction: row;
     }
-
-
-    
-
-
 
 }
