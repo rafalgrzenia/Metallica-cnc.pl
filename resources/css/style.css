@@ -15,7 +15,7 @@ body {
  /* 1. Header */
  
 .contact-mail-header {
-    padding: 0.4em 0;
+    padding: 0.4em 0.8em;
     background-color: #161d2d;
     color: white;
 }
@@ -34,6 +34,14 @@ body {
 
 .mail-container a {
     color: white;
+}
+
+.contact-mail-header-logo {
+    display: none;
+}
+
+.mail-header-company-logo-img {
+    width: 15em;
 }
 
 .mail-icon-wrapper {
@@ -609,9 +617,13 @@ footer {
     .mail-container {
         display: none;
     }
+
+    .contact-mail-header-logo {
+        display: block;
+    }
     
     .header-social-icons-container {
-        margin: 0;
+        display: none;
     }
 
     .header-social-icons {
@@ -625,6 +637,7 @@ footer {
     .hamburger-menu {
         display: inline-block;
         margin-left: auto;
+        margin-right: 1em;
     }
 
     /* Navigation Header */
