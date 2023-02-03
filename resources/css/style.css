@@ -15,7 +15,7 @@ body {
  /* 1. Header */
  
 .contact-mail-header {
-    padding: 10px;
+    padding: 0.4em 0;
     background-color: #161d2d;
     color: white;
 }
@@ -56,6 +56,10 @@ body {
 
 .header-social-icons-container {
     margin-left: auto;
+}
+
+.header-social-icons {
+    margin: 0;
 }
 
 .header-social-icons li {
