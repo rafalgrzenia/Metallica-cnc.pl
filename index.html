@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv='cache-control' content='no-cache'> 
-    <meta http-equiv='expires' content='0'> 
-    <meta http-equiv='pragma' content='no-cache'>
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src="./resources/javascript/script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -211,13 +208,13 @@
     <section class="contact-us">
         <div class="contact-us-wrapper">
             <h1>Masz pytania?<br>Wypełnij formularz.<br>Oddzwonimy!</h1>
-            <form action="https://formsubmit.co/rg.zlecenia@gmail.com" method="POST" class="contact-us-form">
+            <form target="_blank" action="https://formsubmit.co/rg.zlecenia@gmail.com" method="POST" class="contact-us-form" >
                 <div class="row">
                     <div class="row-inputs">
                         <input name="name" type="text" class="form-name-input" id="name" required placeholder="Imię">
                     </div>
                     <div class="row-inputs">
-                        <input name="phone"type="tel" id="phone-number" required placeholder="Numer telefonu">
+                        <input name="phone" type="tel" id="phone-number" required placeholder="Numer telefonu">
                     </div>
                 </div>
                 <div>
@@ -230,7 +227,7 @@
                     <input name="file" type="file" class="attachment" multiple accept="image/*,.pdf">
                 </div>
                 <div>
-                    <button name="submit" type="submit" id="submit-button" class="submitBtn">Wyślij zapytanie</button>
+                    <button type="submit" id="submit-button" class="submitBtn">Wyślij zapytanie</button>
                 </div>
             </form>
         </div>
