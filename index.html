@@ -195,9 +195,10 @@
                     <img src="resources/image/project-images/jpg/project-image-3-small.jpg" alt="Third Project image">
                 </picture>
             </div>
-            <button class="projects-btn">
-                <a href="./projects/projects.html">Więcej Realizacji</a>
-            </button>
+
+            <form action="./projects/projects.html">
+                <input type="submit" class="projects-btn" value="Więcej Realizacji">
+            </form>
         </div>
     </section>
 
@@ -208,14 +209,13 @@
     <section class="contact-us">
         <div class="contact-us-wrapper">
             <h1>Masz pytania?<br>Wypełnij formularz.<br>Oddzwonimy!</h1>
-            <form action="https://formsubmit.co/biuro@metallica-cnc.pl" method="POST" class="contact-us-form" >
+            <form action="https://formsubmit.co/fe5706313358700b856636ecef23c2b8" method="POST" class="contact-us-form" >
                 <div class="row">
                     <div class="row-inputs">
                         <input name="name" type="text" class="form-name-input" id="name" required placeholder="Imię">
                     </div>
                     <div class="row-inputs">
                         <input name="phone" type="tel" id="phone-number" required placeholder="Numer telefonu">
-                        <input name="_formsubmit_id" type="text" style="display:none">
                     </div>
                 </div>
                 <div>
@@ -223,9 +223,12 @@
                 </div>
                 <div class="textarea-container">
                     <textarea name="message" id="message" cols="91" rows="8" placeholder="Wiadomość"></textarea>
+                    <input type="hidden" name="_template" value="box">
+                    <input name="_formsubmit_id" type="text" style="display:none">
                 </div>
                 <div>
                     <button type="submit" id="submit-button" class="submitBtn">Wyślij zapytanie</button>
+                    
                 </div>
             </form>
         </div>
