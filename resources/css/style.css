@@ -191,6 +191,10 @@ body {
     display: none;
 }
 
+#nav-active {
+    color: #FF6123;
+}
+
 /* 3. Jumbotron */
 
 .jumbotron {
