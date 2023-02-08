@@ -709,11 +709,11 @@ footer {
     }
 
     .features-styling {
-        width: 95%;
-        max-width: 31em;
+        width: 90%;
+        max-width: 25em;
         position: static;
         margin-right: 0;
-        margin-top: 0.6em;
+        margin-top: 0.6em;  
         padding: 2em;
     }
 
@@ -903,9 +903,17 @@ footer {
 
     .features-wrapper {
         display: grid;
+        place-items: center;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        margin-left: 0.8em;
+        gap: 0.5em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        
+    }
+
+    .features-styling {
+        width: 98%;
+        max-width: 30em;
     }
 
     /* Jumbotron */
