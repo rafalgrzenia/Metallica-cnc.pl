@@ -72,9 +72,18 @@ body {
 
 .header-social-icons li {
     display: inline-block;
-    font-size: 1.6em;
+    font-size: 1.7em;
     margin-right: 15px;
 }
+
+#social-icons {
+   transition: 0.3s;
+}
+
+#social-icons:hover {
+    color: #FF6123;
+}
+
 
 .header-social-icon-styles {
     color: white;
@@ -592,6 +601,10 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+.projects-subpage-gallery img {
+    border-radius: 10px;
 }
 
 
