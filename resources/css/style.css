@@ -237,6 +237,7 @@ body {
     position: relative;
     bottom: 80px;
     text-align: center;
+    border-radius: 25px;
     
 }
 
@@ -295,6 +296,7 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 15px;
 }
 
 
@@ -370,6 +372,7 @@ body {
 
 .projects-images img {
     max-width: 325px;
+    border-radius: 10px;
     
 }
 
