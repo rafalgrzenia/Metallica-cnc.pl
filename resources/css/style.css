@@ -211,7 +211,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3); /* Tint color */
+    background-color:   rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
     height: 38em;
     width: 100%;
