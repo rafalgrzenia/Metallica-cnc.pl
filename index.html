@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="stylesheet" href="./resources/javascript/photoswipe/photoswipe.css">
     <script src="./resources/javascript/script.js" defer></script>
-    <script type="module" src="./resources/javascript/photoswipe.js"></script>
+    <script type="module" src="./resources/javascript/photoswipe.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -180,9 +180,9 @@
     <section class="projects">
         <div class="projects-wrapper">
             <h2>Realizacje</h2>
-            <div class="projects-image-container">
+            <div class="projects-image-container pswp-gallery pswp-gallery--single-column" id="my-gallery">
                
-                <picture class="projects-images">
+                <!-- <picture class="projects-images">
                     <source srcset="resources/image/project-images/webp/Photo-image-1-small.webp" type="image/webp">
                     <source srcset="resources/image/project-images/jpg/Photo-image-1-small.jpg" type="image/jpeg">
                     <img src="resources/image/project-images/jpg/Photo-image-1-small.jpg" alt="First Project image">
@@ -198,7 +198,36 @@
                     <source srcset="resources/image/project-images/webp/project-image-3-small.webp" type="image/webp">
                     <source srcset="resources/image/project-images/jpg/project-image-3-small.jpg" type="image/jpeg">
                     <img src="resources/image/project-images/jpg/project-image-3-small.jpg" alt="Third Project image">
-                </picture>
+                </picture> -->
+
+
+                <a 
+                    class="projects-images"
+                    data-pswp-src="./resources/image/project-images/jpg/Photo-image-1-large.jpg"
+                    data-pswp-width="1000" 
+                    data-pswp-height="1000" 
+                    target="_blank">
+                    <img src="resources/image/project-images/webp/Photo-image-1-small.webp" alt="First Project image">
+                </a>
+
+                <a 
+                    class="projects-images"
+                    data-pswp-src="./resources/image/project-images/webp/project-image-2-large.webp"
+                    data-pswp-width="1000" 
+                    data-pswp-height="1000" 
+                    target="_blank">
+                    <img src="resources/image/project-images/webp/project-image-2-small.webp" alt="Second Project image">
+                </a>
+                
+                <a 
+                    class="projects-images"
+                    data-pswp-src="./resources/image/project-images/webp/project-image-3-large.webp"
+                    data-pswp-width="1000" 
+                    data-pswp-height="1000" 
+                    target="_blank">
+                    <img src="resources/image/project-images/webp/project-image-3-small.webp" alt="Third Project image">
+                </a>
+
             </div>
 
             <form action="./projects/projects.html">
