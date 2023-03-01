@@ -385,6 +385,10 @@ body {
     
 }
 
+.projects-images img:hover {
+    cursor: pointer;
+}
+
 .projects-btn {
     font-family: inherit;
     margin-top: 4em;
@@ -605,6 +609,10 @@ footer {
 
 .projects-subpage-gallery img {
     border-radius: 10px;
+}
+
+.projects-subpage-gallery img:hover {
+    cursor: pointer;
 }
 
 
