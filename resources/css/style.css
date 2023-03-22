@@ -152,6 +152,15 @@ body {
 }
 
 
+.copied-popup {
+    transition: opacity 200ms, display 200ms;
+    display: none;
+    font-size: 0.8rem;
+    margin-left: 1.5em;
+    transition: 0.5s;
+}
+
+
 /* 2. Nav Header */
 
 .navigation-header {
