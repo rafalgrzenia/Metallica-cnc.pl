@@ -1,19 +1,26 @@
 // Copy mail to clipboard
 
+// Elements
+
 const mail = document.querySelector(".header-contact-email");
 const popUp = document.querySelector(".copied-popup");
 
+
+// Events
+
 mail.addEventListener("click", () => {
   const mailAdress = mail.innerText;
-  copyToClipBoard(mailAdress);
+  copyToClipBoard(mailAdress, popUp);
+});
 
-  function copyToClipBoard(mailAdress) {
+// Functions
+
+
+function copyToClipBoard(text, element) {
     navigator.clipboard
-      .writeText(mailAdress)
+      .writeText(text)
       .then(() => {
-        popUp.style.display = "block";  
+        element.style.display = "block";  
       })
       .catch((e) => console.error(e));
   }
-});
-
