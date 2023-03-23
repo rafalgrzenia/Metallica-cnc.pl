@@ -11,6 +11,9 @@ const popUp = document.querySelector(".copied-popup");
 mail.addEventListener("click", () => {
   const mailAdress = mail.innerText;
   copyToClipBoard(mailAdress, popUp);
+  setTimeout(() => {
+    popUp.style.opacity = '0';
+  }, 800)
 });
 
 // Functions
