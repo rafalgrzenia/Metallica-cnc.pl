@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3507a59249.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer></script>
+    <script type="module" src="resources/javascript/lazy-load.js" defer></script>
     <title>Metallica-CNC</title>
 </head>
 <body>
@@ -169,8 +171,8 @@
         <div class="about-us-video-container">
             <iframe 
                 id="ytplayer" 
-                class="youtube-video"
-                src="https://www.youtube.com/embed/66fie8W2yQU"
+                class="youtube-video lazy"
+                data-src="https://www.youtube.com/embed/66fie8W2yQU"
                 allowfullscreen> 
             </iframe>
         </div>
