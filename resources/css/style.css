@@ -211,6 +211,11 @@ body {
   object-fit: cover;
 }
 
+.small-jumbotron,
+.medium-jumbotron {
+  display: none;
+}
+
 /* 4. Features */
 
 /* .features {
@@ -685,6 +690,11 @@ footer {
   /* Jumbotron */
 
   .jumbotron {
+    display: none;
+  }
+
+  .small-jumbotron {
+    display: block;
     height: 15em;
   }
 
@@ -888,7 +898,13 @@ footer {
 
   /* Jumbotron */
 
-  .jumbotron {
+  .jumbotron,
+  .small-jumbotron {
+    display: none;
+  }
+
+  .medium-jumbotron {
+    display: block;
     height: 20em;
   }
 
