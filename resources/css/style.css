@@ -293,11 +293,15 @@ body {
   text-align: center;
 }
 
-.aboutus-img-section img {
+.company-image {
   max-width: 100%;
   height: auto;
   display: block;
   border-radius: 15px;
+}
+
+.company-image-small {
+  display: none;
 }
 
 .about-us-text h2 {
@@ -722,9 +726,8 @@ footer {
     margin-top: 1em;
   }
 
-  .aboutus-img-section img {
-    width: 95%;
-    margin: 0 auto;
+  .company-image-small {
+    display: none;
   }
 
   .about-us-text h1 {
@@ -910,10 +913,10 @@ footer {
 
   /* About Us */
 
-  .aboutus-img-section {
+  .company-image {
     margin: 0 auto;
-    max-width: 40em;
   }
+
 
   .about-us-text {
     margin: 0 auto;
