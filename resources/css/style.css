@@ -232,8 +232,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 300px;
   width: 300px;
   height: 350px;
+  max-height: 350px;
   z-index: 1;
   position: relative;
   bottom: 80px;
@@ -879,10 +881,10 @@ footer {
     margin-right: 0.5em;
   }
 
-  .features-styling {
+  /* .features-styling {
     width: 98%;
     max-width: 30em;
-  }
+  } */
 
   /* Jumbotron */
 
