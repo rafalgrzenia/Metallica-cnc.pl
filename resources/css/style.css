@@ -882,7 +882,7 @@ footer {
 
 /* Medium Devices */
 
-@media (min-width: 36em) and (max-width: 66em) {
+@media (min-width: 41.625em) and (max-width: 66em) {
   /* Features Section */
 
   .features-wrapper {
@@ -890,8 +890,7 @@ footer {
     place-items: center;
     grid-template-columns: 1fr 1fr;
     gap: 0.5em;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin: 0 5em;
   }
 
   /* .features-styling {
@@ -916,7 +915,6 @@ footer {
   .company-image {
     margin: 0 auto;
   }
-
 
   .about-us-text {
     margin: 0 auto;
