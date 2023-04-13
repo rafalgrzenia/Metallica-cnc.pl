@@ -835,7 +835,7 @@ footer {
     padding: 0;
   }
 
-  .footer-content-2 h3,
+  #footer-contact-text,
   .footer-content-2 ul {
     width: 80%;
     margin: 1.5em auto;
