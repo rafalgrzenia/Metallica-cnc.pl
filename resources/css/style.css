@@ -293,10 +293,10 @@ body {
   text-align: center;
 }
 
-.company-image {
+.company-image,
+.company-image-small {
   max-width: 100%;
   height: auto;
-  display: block;
   border-radius: 15px;
 }
 
@@ -926,5 +926,17 @@ footer {
   .projects-image-container {
     gap: 0;
     flex-direction: row;
+  }
+}
+
+@media (min-width: 5em) and (max-width: 35.625em) {
+  /*  About Us Section */
+
+  .company-image {
+    display: none;
+  }
+
+  .company-image-small {
+    display: block;
   }
 }
