@@ -622,6 +622,7 @@ footer {
 }
 
 .contact-details {
+  font-weight: 500;
   display: grid;
   place-items: center;
 }
