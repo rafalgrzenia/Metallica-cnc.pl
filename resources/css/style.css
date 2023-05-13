@@ -932,6 +932,13 @@ footer {
     gap: 0;
     flex-direction: row;
   }
+
+  /* Footer */
+
+  .footer-content-1,
+  .footer-content-2 {
+    max-width: 70%;
+  }
 }
 
 @media (min-width: 5em) and (max-width: 35.625em) {
