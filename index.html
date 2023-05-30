@@ -8,27 +8,6 @@
       name="description"
       content="Firma Metallica-CNC, której usługi obejmuje Frezowanie, Toczenie, Obróbka materiałów"
     />
-    <link
-      rel="preload"
-      fetchpriority="high"
-      as="image"
-      href="resources/image/Jumbotron/jumbotron3.webp"
-      type="image/webp"
-    />
-    <link
-      rel="preload"
-      fetchpriority="high"
-      as="image"
-      href="resources/image/Jumbotron/jumbotron-small.webp"
-      type="image/webp"
-    />
-    <link
-      rel="preload"
-      fetchpriority="high"
-      as="image"
-      href="resources/image/Jumbotron/jumbotron-medium.webp"
-      type="image/webp"
-    />
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="./resources/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,24 +28,25 @@
       rel="stylesheet"
       crossorigin="anonymous"
     />
-    <script src="./resources/javascript/script.js" defer></script>
     <script
-      type="module"
-      src="./resources/javascript/photoswipe.js"
+      src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"
       defer
     ></script>
+
     <script src="resources/javascript/copy-to-clipboard.js" defer></script>
     <script
       src="https://kit.fontawesome.com/3507a59249.js"
       crossorigin="anonymous"
       defer
     ></script>
+
     <script
-      src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"
+      src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/umd/photoswipe-lightbox.umd.min.js"
       defer
     ></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/umd/photoswipe-lightbox.umd.min.js"
+      type="module"
+      src="./resources/javascript/photoswipe.js"
       defer
     ></script>
 
@@ -75,6 +55,7 @@
       src="resources/javascript/lazy-load.js"
       defer
     ></script>
+    <script src="./resources/javascript/script.js" defer></script>
     <title>Metallica-CNC</title>
   </head>
   <body>
@@ -182,19 +163,16 @@
 
     <div>
       <img
-        fetchpriority="high"
         class="jumbotron small-jumbotron"
         src="resources/image/Jumbotron/test.webp"
         alt="Jumbotron"
       />
       <img
-        fetchpriority="high"
         class="jumbotron"
         src="resources/image/Jumbotron/jumbotron3.webp"
         alt="Jumbotron"
       />
       <img
-        fetchpriority="high"
         class="jumbotron medium-jumbotron"
         src="resources/image/Jumbotron/jumbotron-medium.webp"
         alt="Jumbotron"
@@ -207,16 +185,16 @@
       <div class="features-wrapper">
         <div class="features-styling features-styling-firstcolor">
           <img
-            class="features-image-styling lazy"
-            data-src="resources/image/features/webp/frezowanie.webp"
+            class="features-image-styling"
+            src="resources/image/features/webp/frezowanie.webp"
             alt="frezowanie"
           />
           <p>Frezowanie CNC</p>
         </div>
         <div class="features-styling features-styling-secondcolor">
           <img
-            class="features-image-styling lazy"
-            data-src="resources/image/features/webp/toczeniecnc.webp"
+            class="features-image-styling"
+            src="resources/image/features/webp/toczeniecnc.webp"
             alt="toczenie"
           />
           <p>Toczenie CNC</p>
