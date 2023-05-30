@@ -1,3 +1,4 @@
-const lazyLoadInstance = new LazyLoad({
-  });
+var lazyLoadInstance = new LazyLoad({
+});
 
+lazyLoadInstance.update();
