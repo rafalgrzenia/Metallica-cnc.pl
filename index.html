@@ -168,32 +168,39 @@
     <!-- 3. Jumbotron -->
 
     <div>
-      <picture>
+      <picture >
         <source
-          class="jumbotron"
-          src="./resources/image/Jumbotron/jumbotron3.webp"
+          media="(max-width: 666px)"
+          class="small-jumbotron"
+          srcset="./resources/image/Jumbotron/jumbotron-small.webp"
         />
+        <source
+          media="(max-width: 1056px)"
+          class="jumbotron-styling medium-jumbotron"
+          srcset="./resources/image/Jumbotron/jumbotron-medium.webp"
+        />
+
         <img
-          class="jumbotron"
+          class="jumbotron-styling"
           src="resources/image/Jumbotron/jumbotron3.webp"
           alt="Jumbotron"
         />
       </picture>
-      <img
+      <!-- <img
         class="jumbotron small-jumbotron"
         src="resources/image/Jumbotron/test.webp"
         alt="Jumbotron"
       />
-      <!-- <img
+      <img
         class="jumbotron"
         src="resources/image/Jumbotron/jumbotron3.webp"
         alt="Jumbotron"
-      /> -->
+      />
       <img
         class="jumbotron medium-jumbotron"
         src="resources/image/Jumbotron/jumbotron-medium.webp"
         alt="Jumbotron"
-      />
+      /> -->
     </div>
 
     <!-- 4. Features -->
