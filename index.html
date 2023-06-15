@@ -1,4 +1,269 @@
-<!DOCTYPE html><html lang="pl"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Firma Metallica-CNC, której usługi obejmuje Frezowanie, Toczenie, Obróbka materiałów"><link rel="icon" href="favicon.ico"><link rel="stylesheet" href="./resources/css/style.min.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" media="print" onload='this.media="all"'><link href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.min.css" rel="preload" as="style" crossorigin="anonymous"><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer="defer"></script><script src="resources/javascript/copy-to-clipboard.js" defer="defer"></script><script src="https://kit.fontawesome.com/3507a59249.js" crossorigin="anonymous" defer="defer"></script><script src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/umd/photoswipe-lightbox.umd.min.js" defer="defer"></script><script type="module" src="./resources/javascript/photoswipe.js"></script><script type="module" src="resources/javascript/lazy-load.js"></script><script src="./resources/javascript/script.js" defer="defer"></script><title>Metallica-CNC</title></head><body><header class="contact-mail-header"><div class="header-wrapper"><div class="contact-mail-header-logo"><picture><source data-srcset="resources/image/logo/company-logo.webp" srcset="resources/image/logo/company-logo.webp" class="company-logo-img"><a href="./index.html"><img data-srcset="resources/image/logo/company-logo.webp" src="resources/image/logo/company-logo.webp" alt="Company Logo" class="company-logo-img"></a></picture></div><div class="mail-container"><a href="#" aria-label="Mail Icon" class="mail-icon-wrapper"><i class="fa-regular fa-envelope mail-icon-style"></i></a><a href="#" class="header-contact-email">biuro@metallica-cnc.pl</a><div class="copied-popup">Skopiowano!</div></div><div class="header-social-icons-container"><ul class="header-social-icons"><li><a aria-label="Facebook Icon" href="https://www.facebook.com/profile.php?id=100088107612717"><i id="social-icons" class="fa-brands fa-facebook header-social-icon-styles social-icon-fb"></i></a></li><li><a aria-label="Youtube Icon" href="https://www.youtube.com/@danielgrzenia1905/videos"><i id="social-icons" class="fa-brands fa-youtube header-social-icon-styles"></i></a></li></ul></div><button aria-label="Navigation Menu" class="hamburger-menu"><span class="hamburger-box"><span class="hamburger-innerline"></span></span></button></div></header><header class="navigation-header"><div class="navigation-header-wrapper"><div class="header-logo"><picture><source data-srcset="resources/image/logo/company-logo.webp" srcset="resources/image/logo/company-logo.webp" class="company-logo-img"><a href="./index.html"><img src="resources/image/logo/company-logo.webp" alt="Company Logo" class="company-logo-img"></a></picture></div><nav><ul><li><a href="./index.html" class="nav-links">Strona Główna</a></li><li><a href="#about-us-redirect" class="nav-links">O nas</a></li><li><a href="./projects/projects.html" class="nav-links">Realizacje</a></li><li><a href="./contact/contact.html" class="nav-links">Kontakt</a></li></ul></nav></div></header><div><picture><source media="(max-width: 666px)" class="small-jumbotron" srcset="./resources/image/Jumbotron/jumbotron-small.webp"><source media="(max-width: 1056px)" class="jumbotron-styling medium-jumbotron" srcset="./resources/image/Jumbotron/jumbotron-medium.webp"><img class="jumbotron-styling" src="resources/image/Jumbotron/jumbotron3.webp" alt="Jumbotron"></picture></div><div class="features"><div class="features-wrapper"><div class="features-styling features-styling-firstcolor"><img class="features-image-styling" src="resources/image/features/webp/frezowanie.webp" alt="frezowanie"><p>Frezowanie CNC</p></div><div class="features-styling features-styling-secondcolor"><img class="features-image-styling" src="resources/image/features/webp/toczeniecnc.webp" alt="toczenie"><p>Toczenie CNC</p></div><div class="features-styling features-styling-firstcolor"><img class="features-image-styling lazy" data-src="resources/image/features/webp/spawanie.webp" alt="spawanie"><p>Spawanie</p></div><div class="features-styling features-styling-secondcolor"><img class="features-image-styling cad-image lazy" data-src="resources/image/features/webp/projektowanie-cad kopia.webp" alt="projektowanie cad/cam"><p id="features-cad-p">Projektowanie</p><p id="feature-cad-second-paragraph">CAD/CAM</p></div><div id="about-us-redirect"></div></div></div><section class="about-us"><div class="about-us-wrapper"><div class="aboutus-img-section"><img class="lazy company-image" data-src="./resources/image/company-images/company-image-2.webp" alt="Company Image"> <img class="lazy company-image-small" data-src="./resources/image/company-images/company-image-2-small.webp" alt="Company Image"></div><div class="about-us-text"><h2>O nas</h2><p>Metallica to młoda, prężnie rozwijająca się narzędziownia zajmująca się precyzyjną obróbką metali cnc.</p><p>Nowoczesny park maszyn gwarantuje wykonanie skomplikowanych elementów w najwyższej jakości. Poprzez wieloletnie doświadczenie możemy zaoferować naszym klientom usługi obróbki skrawaniem większości materiałów wykorzystywanych w przemyśle.</p><h3>Gwarantujemy:</h3><ul><li>- Indywidualne podejście do każdego klienta</li><li>- Precyzyjnie i starannie wykonane elementy</li><li>- Terminowość</li></ul></div></div></section><div class="about-us-video"><div class="about-us-video-container"><iframe srcdoc="
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Firma Metallica-CNC, której usługi obejmuje Frezowanie, Toczenie, Obróbka materiałów"
+    />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./resources/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/photoswipe.min.css"
+      rel="preload"
+      as="style"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js"
+      defer
+    ></script>
+    <script src="resources/javascript/copy-to-clipboard.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/3507a59249.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/photoswipe@5.3.7/dist/umd/photoswipe-lightbox.umd.min.js"
+      defer
+    ></script>
+    <script type="module" src="./resources/javascript/photoswipe.js"></script>
+    <script type="module" src="resources/javascript/lazy-load.js"></script>
+    <script src="./resources/javascript/script.js" defer></script>
+    <title>Metallica-CNC</title>
+  </head>
+  <body>
+    <!-- 1.Header -->
+
+    <header class="contact-mail-header">
+      <div class="header-wrapper">
+        <div class="contact-mail-header-logo">
+          <picture>
+            <source
+              data-srcset="resources/image/logo/company-logo.webp"
+              srcset="resources/image/logo/company-logo.webp"
+              class="company-logo-img"
+            />
+            <a href="./index.html">
+              <img
+                data-srcset="resources/image/logo/company-logo.webp"
+                src="resources/image/logo/company-logo.webp"
+                alt="Company Logo"
+                class="company-logo-img"
+              />
+            </a>
+          </picture>
+        </div>
+
+        <div class="mail-container">
+          <a href="#" aria-label="Mail Icon" class="mail-icon-wrapper">
+            <i class="fa-regular fa-envelope mail-icon-style"></i>
+          </a>
+          <a href="#" class="header-contact-email">biuro@metallica-cnc.pl</a>
+          <div class="copied-popup">Skopiowano!</div>
+        </div>
+        <div class="header-social-icons-container">
+          <ul class="header-social-icons">
+            <li>
+              <a
+                aria-label="Facebook Icon"
+                href="https://www.facebook.com/profile.php?id=100088107612717"
+              >
+                <i
+                  id="social-icons"
+                  class="fa-brands fa-facebook header-social-icon-styles social-icon-fb"
+                ></i>
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="Youtube Icon"
+                href="https://www.youtube.com/@danielgrzenia1905/videos"
+              >
+                <i
+                  id="social-icons"
+                  class="fa-brands fa-youtube header-social-icon-styles"
+                ></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button aria-label="Navigation Menu" class="hamburger-menu">
+          <span class="hamburger-box">
+            <span class="hamburger-innerline"></span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- 2. Navigation Header-->
+
+    <header class="navigation-header">
+      <div class="navigation-header-wrapper">
+        <div class="header-logo">
+          <picture>
+            <source
+              data-srcset="resources/image/logo/company-logo.webp"
+              srcset="resources/image/logo/company-logo.webp"
+              class="company-logo-img"
+            />
+            <a href="./index.html">
+              <img
+                src="resources/image/logo/company-logo.webp"
+                alt="Company Logo"
+                class="company-logo-img"
+              />
+            </a>
+          </picture>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="./index.html" class="nav-links">Strona Główna</a></li>
+            <li><a href="#about-us-redirect" class="nav-links">O nas</a></li>
+            <li>
+              <a href="./projects/projects.html" class="nav-links"
+                >Realizacje</a
+              >
+            </li>
+            <li>
+              <a href="./contact/contact.html" class="nav-links">Kontakt</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 3. Jumbotron -->
+
+    <div>
+      <picture>
+        <source
+          media="(max-width: 666px)"
+          class="small-jumbotron"
+          srcset="./resources/image/Jumbotron/jumbotron-small.webp"
+        />
+        <source
+          media="(max-width: 1056px)"
+          class="jumbotron-styling medium-jumbotron"
+          srcset="./resources/image/Jumbotron/jumbotron-medium.webp"
+        />
+
+        <img
+          class="jumbotron-styling"
+          src="resources/image/Jumbotron/jumbotron3.webp"
+          alt="Jumbotron"
+        />
+      </picture>
+    </div>
+
+    <!-- 4. Features -->
+
+    <div class="features">
+      <div class="features-wrapper">
+        <div class="features-styling features-styling-firstcolor">
+          <img
+            class="features-image-styling"
+            src="resources/image/features/webp/frezowanie.webp"
+            alt="frezowanie"
+          />
+          <p>Frezowanie CNC</p>
+        </div>
+        <div class="features-styling features-styling-secondcolor">
+          <img
+            class="features-image-styling"
+            src="resources/image/features/webp/toczeniecnc.webp"
+            alt="toczenie"
+          />
+          <p>Toczenie CNC</p>
+        </div>
+        <div class="features-styling features-styling-firstcolor">
+          <img
+            class="features-image-styling lazy"
+            data-src="resources/image/features/webp/spawanie.webp"
+            alt="spawanie"
+          />
+          <p>Spawanie</p>
+        </div>
+        <div class="features-styling features-styling-secondcolor">
+          <img
+            class="features-image-styling cad-image lazy"
+            data-src="resources/image/features/webp/projektowanie-cad kopia.webp"
+            alt="projektowanie cad/cam"
+          />
+          <p id="features-cad-p">Projektowanie</p>
+          <p id="feature-cad-second-paragraph">CAD/CAM</p>
+        </div>
+        <div id="about-us-redirect"></div>
+      </div>
+    </div>
+
+    <!-- 5. About Us -->
+
+    <section class="about-us">
+      <div class="about-us-wrapper">
+        <div class="aboutus-img-section">
+          <img
+            class="lazy company-image"
+            data-src="./resources/image/company-images/company-image-2.webp"
+            alt="Company Image"
+          />
+          <img
+            class="lazy company-image-small"
+            data-src="./resources/image/company-images/company-image-2-small.webp"
+            alt="Company Image"
+          />
+        </div>
+        <div class="about-us-text">
+          <h2>O nas</h2>
+          <p>
+            Metallica to młoda, prężnie rozwijająca się narzędziownia zajmująca
+            się precyzyjną obróbką metali cnc.
+          </p>
+          <p>
+            Nowoczesny park maszyn gwarantuje wykonanie skomplikowanych
+            elementów w najwyższej jakości. Poprzez wieloletnie doświadczenie
+            możemy zaoferować naszym klientom usługi obróbki skrawaniem
+            większości materiałów wykorzystywanych w przemyśle.
+          </p>
+          <h3>Gwarantujemy:</h3>
+          <ul>
+            <li>- Indywidualne podejście do każdego klienta</li>
+            <li>- Precyzyjnie i starannie wykonane elementy</li>
+            <li>- Terminowość</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Video -->
+
+    <div class="about-us-video">
+      <div class="about-us-video-container">
+        <iframe
+          srcdoc="
     <style>
         body, .full {
             width: 100%;
@@ -28,4 +293,187 @@
             <path d='M 45,24 27,14 27,34' fill='#fff'></path>
         </svg>
     </a>
-" style="max-width:60em;width:90%;aspect-ratio:16/9" frameborder="0"></iframe></div></div><section class="projects"><div class="projects-wrapper"><h2>Realizacje</h2><div class="projects-image-container pswp-gallery pswp-gallery--single-column" id="my-gallery"><a class="projects-images lazy" data-pswp-src="resources/image/project-images/project1-large.webp" href="resources/image/project-images/project1-large.webp" data-pswp-width="900" data-pswp-height="900" target="_blank"><img data-src="resources/image/project-images/project1-small.webp" src="resources/image/project-images/project1-small.webp" class="lazy" alt="First Project image"></a><a class="projects-images lazy" data-pswp-src="./resources/image/project-images/project2-large.webp" href="./resources/image/project-images/project2-large.webp" data-pswp-width="900" data-pswp-height="900" target="_blank"><img data-src="./resources/image/project-images/project2-small.webp" src="resources/image/project-images/project2-small.webp" class="lazy" alt="Second Project image"></a><a class="projects-images lazy" data-pswp-src="./resources/image/project-images/project3-large.webp" href="./resources/image/project-images/project3-large.webp" data-pswp-width="900" data-pswp-height="900" target="_blank"><img data-src="resources/image/project-images/project3-small.webp" src="resources/image/project-images/project3-small.webp" class="lazy" alt="Third Project image"></a></div><form action="./projects/projects.html"><input type="submit" class="projects-btn" value="Więcej Realizacji"></form></div></section><section class="contact-us"><div class="contact-us-wrapper"><h1>Masz pytania?<br>Wypełnij formularz.<br>Oddzwonimy!</h1><form action="https://formsubmit.co/fe5706313358700b856636ecef23c2b8" method="POST" class="contact-us-form"><div class="row"><div class="row-inputs"><input name="name" type="text" class="form-name-input" id="name" required placeholder="Imię"></div><div class="row-inputs"><input name="phone" type="tel" id="phone-number" required placeholder="Numer telefonu"></div></div><div><input name="email" type="email" id="email" required placeholder="Adres email"></div><div class="textarea-container"><textarea name="message" id="message" cols="91" rows="8" placeholder="Wiadomość"></textarea><input type="hidden" name="_template" value="table"> <input name="_formsubmit_id" type="text" style="display:none"></div><div><button type="submit" id="submit-button" class="submitBtn">Wyślij zapytanie</button></div></form></div></section><footer><div class="footer-container"><div class="footer-content-1"><img width="20em" height="auto" src="resources/image/logo/company-logo.webp" data-src="./resources/image/logo/company-logo.webp" class="footer-img lazy" alt="Company Logo"><p>Dostarczamy wysokiej jakości elementy wykonane metodą ubytkową cnc, aby sprostać oczekiwaniom naszych klientów.</p><p>Wieloletnie doświadczenie, odpowiedzialność i zaangażowanie jest gwarancją terminowości i satysfakcji ze świadczonych przez nas usług.</p></div><div class="footer-content-2"><p id="footer-contact-text">Kontakt</p><ul><li><i class="fa-solid fa-phone"><span class="footer-details-styling">+48 504 540 412</span></i><p>Pon-Pt: 8:00 - 16:00</p></li><li><i class="fa-regular fa-envelope"><span class="footer-details-styling">biuro@metallica-cnc.pl</span></i></li><li><i class="fa-regular fa-building"><span class="footer-details-styling">ul. Rzeczna 6, 33-170 Tuchów</span></i><p>Lokalizacja biura</p></li></ul></div></div></footer></body></html>
+"
+          style="max-width: 60em; width: 90%; aspect-ratio: 16/9"
+          frameborder="0"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- 6. Projects -->
+
+    <section class="projects">
+      <div class="projects-wrapper">
+        <h2>Realizacje</h2>
+        <div
+          class="projects-image-container pswp-gallery pswp-gallery--single-column"
+          id="my-gallery"
+        >
+          <a
+            class="projects-images lazy"
+            data-pswp-src="resources/image/project-images/project1-large.webp"
+            href="resources/image/project-images/project1-large.webp"
+            data-pswp-width="900"
+            data-pswp-height="900"
+            target="_blank"
+          >
+            <img
+              data-src="resources/image/project-images/project1-small.webp"
+              src="resources/image/project-images/project1-small.webp"
+              class="lazy"
+              alt="First Project image"
+            />
+          </a>
+
+          <a
+            class="projects-images lazy"
+            data-pswp-src="./resources/image/project-images/project2-large.webp"
+            href="./resources/image/project-images/project2-large.webp"
+            data-pswp-width="900"
+            data-pswp-height="900"
+            target="_blank"
+          >
+            <img
+              data-src="./resources/image/project-images/project2-small.webp"
+              src="resources/image/project-images/project2-small.webp"
+              class="lazy"
+              alt="Second Project image"
+            />
+          </a>
+
+          <a
+            class="projects-images lazy"
+            data-pswp-src="./resources/image/project-images/project3-large.webp"
+            href="./resources/image/project-images/project3-large.webp"
+            data-pswp-width="900"
+            data-pswp-height="900"
+            target="_blank"
+          >
+            <img
+              data-src="resources/image/project-images/project3-small.webp"
+              src="resources/image/project-images/project3-small.webp"
+              class="lazy"
+              alt="Third Project image"
+            />
+          </a>
+        </div>
+
+        <form action="./projects/projects.html">
+          <input type="submit" class="projects-btn" value="Więcej Realizacji" />
+        </form>
+      </div>
+    </section>
+
+    <!-- 7. Contact Us -->
+
+    <section class="contact-us">
+      <div class="contact-us-wrapper">
+        <h1>Masz pytania?<br />Wypełnij formularz.<br />Oddzwonimy!</h1>
+        <form
+          action="https://formsubmit.co/fe5706313358700b856636ecef23c2b8"
+          method="POST"
+          class="contact-us-form"
+        >
+          <div class="row">
+            <div class="row-inputs">
+              <input
+                name="name"
+                type="text"
+                class="form-name-input"
+                id="name"
+                required
+                placeholder="Imię"
+              />
+            </div>
+            <div class="row-inputs">
+              <input
+                name="phone"
+                type="tel"
+                id="phone-number"
+                required
+                placeholder="Numer telefonu"
+              />
+            </div>
+          </div>
+          <div>
+            <input
+              name="email"
+              type="email"
+              id="email"
+              required
+              placeholder="Adres email"
+            />
+          </div>
+          <div class="textarea-container">
+            <textarea
+              name="message"
+              id="message"
+              cols="91"
+              rows="8"
+              placeholder="Wiadomość"
+            ></textarea>
+            <input type="hidden" name="_template" value="table" />
+            <input name="_formsubmit_id" type="text" style="display: none" />
+          </div>
+          <div>
+            <button type="submit" id="submit-button" class="submitBtn">
+              Wyślij zapytanie
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- 8. Footer -->
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content-1">
+          <img
+            width="20em"
+            height="auto"
+            src="resources/image/logo/company-logo.webp"
+            data-src="./resources/image/logo/company-logo.webp"
+            class="footer-img lazy"
+            alt="Company Logo"
+          />
+          <p>
+            Dostarczamy wysokiej jakości elementy wykonane metodą ubytkową cnc,
+            aby sprostać oczekiwaniom naszych klientów.
+          </p>
+          <p>
+            Wieloletnie doświadczenie, odpowiedzialność i zaangażowanie jest
+            gwarancją terminowości i satysfakcji ze świadczonych przez nas
+            usług.
+          </p>
+        </div>
+        <div class="footer-content-2">
+          <p id="footer-contact-text">Kontakt</p>
+          <ul>
+            <li>
+              <i class="fa-solid fa-phone"
+                ><span class="footer-details-styling">+48 504 540 412</span></i
+              >
+              <p>Pon-Pt: 8:00 - 16:00</p>
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope"
+                ><span class="footer-details-styling"
+                  >biuro@metallica-cnc.pl</span
+                ></i
+              >
+            </li>
+            <li>
+              <i class="fa-regular fa-building"
+                ><span class="footer-details-styling"
+                  >ul. Rzeczna 6, 33-170 Tuchów</span
+                ></i
+              >
+              <p>Lokalizacja biura</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
