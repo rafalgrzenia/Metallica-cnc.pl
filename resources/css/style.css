@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("../fonts/poppins/poppins-regular-webfont.woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("../fonts/poppins/poppins-medium-webfont.woff2");
+}
+
 *,
 *::before,
 *::after {
