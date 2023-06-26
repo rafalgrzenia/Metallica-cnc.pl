@@ -205,7 +205,8 @@ body {
 }
 
 .company-logo-img {
-  width: 16.5em;
+  height: auto;
+  width: 100%;
 }
 
 #nav-active {
@@ -584,7 +585,10 @@ footer {
 /* Projects Subpage */
 
 .projects-subpage {
+  width: 100%;
+  height: auto;
   background-color: rgb(250 250 250);
+  aspect-ratio: 16 / 9;
 }
 
 .projects-subpage-wrapper {
