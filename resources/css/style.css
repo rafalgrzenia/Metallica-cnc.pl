@@ -585,14 +585,16 @@ footer {
 /* Projects Subpage */
 
 .projects-subpage {
-  width: 100%;
-  height: auto;
+  
   background-color: rgb(250 250 250);
-  aspect-ratio: 16 / 9;
+  
 }
 
 .projects-subpage-wrapper {
+  width: 100%;
+  height: auto;
   max-width: 1300px;
+  aspect-ratio: 16 / 9;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -614,10 +616,14 @@ footer {
   gap: 1em;
 }
 
-.projects-subpage-image {
-  height: auto;
-  width: 100%;
+.projects-subpage-gallery a {
+  width: 400px;
+  height: 400px;
   aspect-ratio: 1 / 1;
+}
+
+.projects-subpage-image {
+
   border-radius: 10px;
 }
 
