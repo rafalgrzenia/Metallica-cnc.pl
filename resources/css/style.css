@@ -617,13 +617,12 @@ footer {
 }
 
 .projects-subpage-gallery a {
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 25em;
   aspect-ratio: 1 / 1;
 }
 
 .projects-subpage-image {
-
   border-radius: 10px;
 }
 
@@ -902,9 +901,9 @@ footer {
     margin-bottom: 1.5em;
   }
 
-  .projects-subpage-image {
-    width: 300px;
-    height: 300px;
+  .projects-subpage-gallery a, .projects-subpage-image {
+    width: 18.750em;
+    height: 18.750em;
   }
 }
 
