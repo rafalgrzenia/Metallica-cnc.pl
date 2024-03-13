@@ -169,7 +169,7 @@ body {
 .navigation-header {
   background-color: #1e2045;
   position: sticky;
-  top: 0;
+  top: -2px;
   z-index: 3;
 }
 
